@@ -13,7 +13,17 @@ A: Simply:
 4) Execute the script monthly and get notified on the total amount spent on public transportation :smile:
 
 
-## Lines of code to change in the script
+## Table of Contents
+- [Installation](https://github.com/crazzeex/simply_go_calculator/edit/main/README.md#installation)
+- [Lines of code to change in the script](https://github.com/crazzeex/simply_go_calculator/edit/main/README.md#lines-of-code-to-change-in-the-script)
+- [Documentation for Underlying Libraries](https://github.com/crazzeex/simply_go_calculator/edit/main/README.md#documentation-for-underlying-libraries)
+
+### Installation
+```
+pip install -r requirements.txt
+```
+
+### Lines of code to change in the script
 
 1) Line 40 - Replace <username> with your own username to simplygo
 ```
@@ -31,7 +41,10 @@ dropdown.select_by_visible_text("<label of credit card>")
 ```
 os.chdir(r'C:\Users\<user>\Downloads')  
 ```
-5) line 127 - Replace with your path to the Downloads directory (default path should be as shown, with the user changed to your user profile)
+5) Line 127 - Replace with your path to the Downloads directory (default path should be as shown, with the user changed to your user profile)
 ```
 downloads_folder = os.listdir(r'C:\Users\<user>\Downloads')
 ```
+
+### Documentation for underlying libraries
+- [PDFQuery](https://github.com/jcushman/pdfquery#id2)
